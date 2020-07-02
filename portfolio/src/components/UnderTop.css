@@ -1,10 +1,40 @@
-.Wrap {
-    background: lightgrey;
+.wrap h2{
+    font-size: 1.75rem;
 }
 
-.Wrap h1 {
+.wrap h1 {
     color: #0050b3;
-    font-size: 4rem;
+    font-size: 3rem;
     display: flex;
     justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+    text-align: center;
+    color: #0050b3;
+}
+
+.box1 {
+    background-color: #69c0ff;
+    width: 30%;
+    height: 60vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.box2 {
+    background-color: #69c0ff;
+    width: 30%;
+    height: 60vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.box3 {
+    background-color: #69c0ff;
+    width: 30%;
+    height: 60vh;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
