@@ -1,0 +1,10 @@
+.Wrap {
+    background: lightgrey;
+}
+
+.Wrap h1 {
+    color: #0050b3;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}

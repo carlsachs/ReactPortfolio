@@ -4,11 +4,19 @@ import React from "react";
 import "./UnderTop.css";
 import Nav from "./Nav";
 
+//import other styling libraries
+import Fade from "react-reveal";
+
 const UnderTop = () => {
 
     return (
         <div className="Wrap">
-            <h1>This is in the wrap component</h1>
+            <Fade top>
+                <h1>Skills</h1>
+            </Fade>
+            <div className="content">
+                
+            </div>
         </div>
     )
 }
