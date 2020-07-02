@@ -14,9 +14,9 @@ const HomeTop = () => {
     return (
         <Fade top>
         <div className="topdiv">
-                    <div className="title">
-                        <h1 aria-label="../../Carl/Sachs"></h1>
-                    </div>
+            <div className="title">
+                <h1 carl-label="../Carl/Sachs"></h1>
+            </div>
         </div>
         </Fade>
     )
