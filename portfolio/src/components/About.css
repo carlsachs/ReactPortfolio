@@ -117,7 +117,7 @@
 }
 
 .list {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     background-color: #1890ff;
     
@@ -133,7 +133,7 @@
 }
 
 .lambdatitle h2 {
-    color: #002766;
+    color: #003a8c;
     display: flex;
     justify-content: center;
 }
@@ -153,5 +153,29 @@
     }
     to {
         transform: rotate(0deg);
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .toprow {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .react {
+        padding: 10%;
+    }
+    .css {
+        padding: 10%;
+    }
+    .bottomrow {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding-bottom: 10%;
+    }
+    .python {
+        padding: 10%;
+    }
+    .typescript {
+        padding: 10%;
     }
 }
