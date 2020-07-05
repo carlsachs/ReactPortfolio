@@ -21,6 +21,10 @@ const Nav = () => {
         history.push("/about");
     }
 
+    const toContact = () => {
+        history.push("/contact");
+    }
+
     return (
         <div style={{display: "flex", justifyContent: "space evenly"}}>
             <div id="btn" onClick={toHome}>
@@ -32,7 +36,7 @@ const Nav = () => {
             <div id="btn3" onClick={toAbout}>
                 <span class="noselect3">About</span><div id="circle3"></div>
             </div>
-            <div id="btn4" onClick={toAbout}>
+            <div id="btn4" onClick={toContact}>
                 <span class="noselect4">Contact</span><div id="circle4"></div>
             </div>
         </div>
