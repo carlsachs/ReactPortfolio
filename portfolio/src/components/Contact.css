@@ -16,6 +16,7 @@
     justify-content: space-evenly;
     padding-top: 10%;
     background: white;
+    
 }
 
 .link {
@@ -23,9 +24,17 @@
     width: 200px;
 }
 
+.link:hover {
+    cursor: pointer;
+}
+
 .gmail {
     height: 200px;
     width: 200px;
+}
+
+.gmail:hover {
+    cursor: pointer;
 }
 
 .twitter {
@@ -33,7 +42,46 @@
     width: 200px;
 }
 
+.twitter:hover {
+    cursor: pointer;
+}
+
 .face {
     height: 200px;
     width: 200px;
+}
+
+.face:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px){
+    .icons {
+        width: 100%;
+        height: auto;
+        flex-flow: row wrap;
+    }
+    .top {
+        margin-top: 12.5%;
+    }
+    .link {
+        height: 250px;
+        width: 250px;
+        padding: 5%;
+    }
+    .gmail {
+        height: 250px;
+        width: 250px;
+        padding: 5%;
+    }
+    .twitter {
+        height: 250px;
+        width: 250px;
+        padding: 5%;
+    }
+    .face {
+        height: 250px;
+        width: 250px;
+        padding: 5%;
+    }
 }
