@@ -1,16 +1,29 @@
 import React from 'react';
 import './App.css';
 
+//router
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 //import components
 import HomeTop from "../src/components/HomeTop";
-import UnderTop from "./components/UnderTop";
+import Projects from "./components/Projects";
+import About from "./components/About";
 
 function App() {
   return (
-    <div className="AppWrap">
-      <HomeTop />
-      <UnderTop />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <HomeTop />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+      </Switch>
+    </Router>
   )
 }
 
