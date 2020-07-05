@@ -95,6 +95,7 @@ const About = () => {
             </div>
             <div className="lambda">
                 <h2>Life at Lambda</h2>
+                <p>This is a test</p>
             </div>
         </div>
     )
