@@ -28,3 +28,57 @@
     font-size: 1.5rem;
     color: white;
 }
+
+.toprow {
+    background: white;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.react {
+    height: 200px;
+    width: 200px;
+}
+
+.css {
+    height: 200px;
+    width: 200px;
+}
+
+.git {
+    height: 200px;
+    width: 200px;
+}
+
+.node {
+    height: 200px;
+    width: 200px;
+}
+
+.bottomrow {
+    background: white;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.python {
+    height: 200px;
+    width: 200px;
+}
+
+.typescript {
+    height: 200px;
+    width: 200px;
+}
+
+.webkit {
+    height: 200px;
+    width: 200px;
+}
+
+.heroku {
+    height: 200px;
+    width: 200px;
+}
