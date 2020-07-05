@@ -1,0 +1,30 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    background: #002766;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    background-color: #003a8c;
+}
+
+.top h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+.middle {
+    background-color: #002766;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
