@@ -12,6 +12,7 @@ import "./python.svg"
 import Fade from "react-reveal";
 import Typist from "react-typist";
 import Particles from "react-particles-js";
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -86,6 +87,14 @@ const About = () => {
                         </svg>
                     </div>
                 </Fade>
+            </div>
+            <div className="list">
+                <div className="btnhere">
+                    <h2>For a complete list of my skills, click <Link to="/" style={{textDecoration: "none", color: "#002766"}}>here</Link></h2>
+                </div>
+            </div>
+            <div className="lambda">
+                <h2>Life at Lambda</h2>
             </div>
         </div>
     )

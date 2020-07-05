@@ -61,6 +61,7 @@
     padding-top: 3%;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 3%;
 }
 
 .python {
@@ -82,4 +83,20 @@
 .heroku {
     height: 200px;
     width: 200px;
+}
+
+.list {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #1890ff;
+    
+}
+
+.list h2 {
+    text-align: center;
+    color: white;
+}
+
+.lambda {
+    background-color: white;;
 }
