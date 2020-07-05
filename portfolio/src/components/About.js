@@ -26,6 +26,9 @@ const About = () => {
                     <h3 style={{display: "inline-block"}}>Some of my skills:</h3>
                 </Typist>
             </div>
+            <div className="toprow">
+                
+            </div>
             </div>
         </div>
     )
