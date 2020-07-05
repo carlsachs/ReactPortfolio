@@ -41,9 +41,17 @@
     width: 200px;
 }
 
+.react:hover {
+    animation: rotation 2s infinite linear;
+}
+
 .css {
     height: 200px;
     width: 200px;
+}
+
+.css:hover {
+    animation: rotation2 2s infinite linear;
 }
 
 .git {
@@ -51,9 +59,17 @@
     width: 200px;
 }
 
+.git:hover {
+    animation: rotation 2s infinite linear;
+}
+
 .node {
     height: 200px;
     width: 200px;
+}
+
+.node:hover {
+    animation: rotation2 2s infinite linear;
 }
 
 .bottomrow {
@@ -69,20 +85,35 @@
     width: 200px;
 }
 
+.python:hover {
+    animation: rotation 2s infinite linear;
+}
+
 .typescript {
     height: 200px;
     width: 200px;
 }
 
+.typescript:hover {
+    animation: rotation2 2s infinite linear;
+}
+
 .webkit {
     height: 200px;
     width: 200px;
-    
+}
+
+.webkit:hover {
+    animation: rotation 2s infinite linear;
 }
 
 .heroku {
     height: 200px;
     width: 200px;
+}
+
+.heroku:hover {
+    animation: rotation2 2s infinite linear;
 }
 
 .list {
@@ -97,6 +128,30 @@
     color: white;
 }
 
-.lambda {
+.lambdatitle {
     background-color: white;;
+}
+
+.lambdatitle h2 {
+    color: #002766;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation2 {
+    from {
+        transform: rotate(359deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
