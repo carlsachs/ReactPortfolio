@@ -27,6 +27,7 @@ const About = () => {
                         <h3 style={{display: "inline-block"}}>Some of my skills:</h3>
                     </Typist>
                 </div>
+                
                 <div className="toprow">
                     
                         <div className="react">
@@ -82,6 +83,7 @@ const About = () => {
                         </div>
                     
                 </div>
+                
                 <div className="list">
                     <div className="btnhere">
                         <h2>For a complete list of my skills, click <Link to="/" style={{textDecoration: "none", color: "#0050b3"}}>here</Link></h2>

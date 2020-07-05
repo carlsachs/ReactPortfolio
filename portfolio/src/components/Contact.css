@@ -1,0 +1,12 @@
+.wrap {
+    
+}
+
+.top {
+    display: flex;
+    color: white;
+}
+
+.top h2 {
+    display: inline-block;
+}
