@@ -221,3 +221,15 @@
     border-radius: 0;
     border-bottom: 2px solid #eee;
   }
+
+  @media only screen and (min-width: 768px) {
+    #btn {
+      left: 5%;
+    }
+    #btn2 {
+      left: 28%;
+    }
+    #btn3 {
+      left: 51.5%;
+    }
+  }

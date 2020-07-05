@@ -41,9 +41,17 @@
     width: 200px;
 }
 
+.react:hover {
+    animation: rotation 2s infinite linear;
+}
+
 .css {
     height: 200px;
     width: 200px;
+}
+
+.css:hover {
+    animation: rotation2 2s infinite linear;
 }
 
 .git {
@@ -51,9 +59,17 @@
     width: 200px;
 }
 
+.git:hover {
+    animation: rotation 2s infinite linear;
+}
+
 .node {
     height: 200px;
     width: 200px;
+}
+
+.node:hover {
+    animation: rotation2 2s infinite linear;
 }
 
 .bottomrow {
@@ -69,15 +85,26 @@
     width: 200px;
 }
 
+.python:hover {
+    animation: rotation 2s infinite linear;
+}
+
 .typescript {
     height: 200px;
     width: 200px;
 }
 
+.typescript:hover {
+    animation: rotation2 2s infinite linear;
+}
+
 .webkit {
     height: 200px;
     width: 200px;
-    
+}
+
+.webkit:hover {
+    animation: rotation 2s infinite linear;
 }
 
 .heroku {
@@ -85,8 +112,12 @@
     width: 200px;
 }
 
+.heroku:hover {
+    animation: rotation2 2s infinite linear;
+}
+
 .list {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     background-color: #1890ff;
     
@@ -97,6 +128,54 @@
     color: white;
 }
 
-.lambda {
+.lambdatitle {
     background-color: white;;
+}
+
+.lambdatitle h2 {
+    color: #003a8c;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation2 {
+    from {
+        transform: rotate(359deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .toprow {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .react {
+        padding: 10%;
+    }
+    .css {
+        padding: 10%;
+    }
+    .bottomrow {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding-bottom: 10%;
+    }
+    .python {
+        padding: 10%;
+    }
+    .typescript {
+        padding: 10%;
+    }
 }
