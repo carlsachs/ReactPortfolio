@@ -10,3 +10,30 @@
 .top h2 {
     display: inline-block;
 }
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    background: white;
+}
+
+.link {
+    height: 200px;
+    width: 200px;
+}
+
+.gmail {
+    height: 200px;
+    width: 200px;
+}
+
+.twitter {
+    height: 200px;
+    width: 200px;
+}
+
+.face {
+    height: 200px;
+    width: 200px;
+}
