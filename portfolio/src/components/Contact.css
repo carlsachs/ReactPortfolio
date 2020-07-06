@@ -89,6 +89,9 @@
     .top {
         margin-top: 25%;
     }
+    .top h2 {
+        font-size: 2rem;
+    }
     .link {
         height: 125px;
         width: 125px;
