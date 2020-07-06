@@ -11,7 +11,6 @@ import "./python.svg"
 //import libraries
 import Fade from "react-reveal";
 import Typist from "react-typist";
-import Particles from "react-particles-js";
 import { Link } from "react-router-dom";
 
 const About = () => {

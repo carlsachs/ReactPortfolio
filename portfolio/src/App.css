@@ -78,9 +78,41 @@ h1::after {
   }
 }
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){
   h1::before,
   h1::after {
     top: 118px;
+  }
+}
+
+@media only screen and (min-width: 400px){
+  h1::before,
+  h1::after {
+    top: 120px;
+  }
+} */
+
+@media only screen and (min-width: 400px) and (max-width: 550px){
+  h1::before,
+  h1::after {
+    top: 127px;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 650px){
+  h1::before,
+  h1::after {
+    top: 128px;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 800px){
+  h1::before,
+  h1::after {
+    top: 128px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1055px){
+  h1::before,
+  h1::after {
+    top: 127px;
   }
 }
