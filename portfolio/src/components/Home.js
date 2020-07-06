@@ -4,13 +4,7 @@ import React from "react";
 import "../App.css";
 import Nav from "./Nav";
 
-//import styling libraries
-import Fade from "react-reveal";
-import Bounce from "react-reveal/Bounce";
-import Typist from "react-typist";
-
-
-const HomeTop = () => {
+const Home = () => {
 
     return (
         <div className="topdiv">
@@ -22,4 +16,4 @@ const HomeTop = () => {
     )
 }
 
-export default HomeTop;
+export default Home;
