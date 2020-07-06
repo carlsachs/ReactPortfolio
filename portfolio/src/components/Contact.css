@@ -85,3 +85,27 @@
         padding: 5%;
     }
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .top {
+        margin-top: 25%;
+    }
+    .link {
+        height: 125px;
+        width: 125px;
+    }
+    .gmail {
+        height: 125px;
+        width: 125px;
+    }
+    .twitter {
+        height: 125px;
+        width: 125px;
+    }
+    .face {
+        height: 125px;
+        width: 125px;
+    }
+    .icons {
+        padding-top: 25%;
+    }
+}
