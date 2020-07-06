@@ -222,6 +222,11 @@
     border-bottom: 2px solid #eee;
   }
 
+  .main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   @media only screen and (max-width: 768px) {
     #btn {
       left: 5%;
@@ -231,5 +236,32 @@
     }
     #btn3 {
       left: 51.5%;
+    }
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .main {
+      height: 150px;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    #btn {
+      min-width: 125px;
+      top: 5%;
+      left: 10%;
+    }
+    #btn2 {
+      min-width: 125px;
+      top: 20%;
+      left: 10%;
+    }
+    #btn3 {
+      min-width: 125px;
+      top: 5%;
+      left: 50%;
+    }
+    #btn4 {
+      min-width: 125px;
+      top: 20%;
+      left: 50%;
     }
   }

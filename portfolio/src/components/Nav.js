@@ -26,7 +26,7 @@ const Nav = () => {
     }
 
     return (
-        <div style={{display: "flex", justifyContent: "space evenly"}}>
+        <div className="main">
             <div id="btn" onClick={toHome}>
                 <span class="noselect">Home</span><div id="circle"></div>
             </div>
