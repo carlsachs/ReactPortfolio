@@ -179,3 +179,43 @@
         padding: 10%;
     }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .react{
+        height: 100px;
+        width: 100px;
+    }
+    .css {
+        height: 100px;
+        width: 100px;
+    }
+    .git {
+        height: 100px;
+        width: 100px;
+    }
+    .node {
+        height: 100px;
+        width: 100px;
+    }
+    .python {
+        height: 100px;
+        width: 100px;
+    }
+    .typescript {
+        height: 100px;
+        width: 100px;
+    }
+    .webkit {
+        height: 100px;
+        width: 100px;
+    }
+    .heroku {
+        height: 100px;
+        width: 100px;
+    }
+    .btnhere {
+        padding-left: 5%;
+        padding-right: 5%;
+        letter-spacing: .1rem;;
+    }
+}
