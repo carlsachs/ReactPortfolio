@@ -5,6 +5,7 @@ import "./About.css";
 
 //import other components
 import Nav from "./Nav";
+import Skills from "./Skills";
 
 import "./python.svg"
 
@@ -85,7 +86,7 @@ const About = () => {
                 
                 <div className="list">
                     <div className="btnhere">
-                        <h2>For a complete list of my skills, click <Link to="/" style={{textDecoration: "none", color: "#0050b3"}}>here</Link></h2>
+                        <h2>For a complete list of my skills, click <Link to="/skills" style={{textDecoration: "none", color: "#0050b3"}}>here</Link></h2>
                     </div>
                 </div>
                     <div className="lambdatitle">
