@@ -78,7 +78,7 @@ h1::after {
   }
 }
 
-/* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
   h1::before,
   h1::after {
     top: 118px;
@@ -90,9 +90,9 @@ h1::after {
   h1::after {
     top: 120px;
   }
-} */
+} 
 
-/* @media only screen and (min-width: 400px) and (max-width: 550px){
+@media only screen and (min-width: 400px) and (max-width: 550px){
   h1::before,
   h1::after {
     top: 127px;
@@ -115,4 +115,4 @@ h1::after {
   h1::after {
     top: 127px;
   }
-} */
+}
