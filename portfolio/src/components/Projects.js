@@ -9,6 +9,10 @@ import { Link } from "react-router-dom";
 //import other components
 import Nav from "./Nav";
 import FE1 from "./ProCards/FE1";
+import FE2 from "./ProCards/FE2";
+
+//import styling libraries
+import Slide from "react-reveal";
 
 const Projects = () => {
 
@@ -26,7 +30,12 @@ const Projects = () => {
                     <h3>Find my GitHub <Link style={{textDecoration: "none", color: "#1890ff"}} to="https://github.com/carlsachs">HERE</Link>:</h3>
                 </div>
                 <div className="front-bottom">
-                    <FE1 />
+                    <Slide left>
+                        <FE2 />
+                    </Slide>
+                    <Slide right>
+                        <FE1 />
+                    </Slide>
                 </div>
             </div>
         </div>
