@@ -50,6 +50,50 @@ const Projects = () => {
                     </Slide>
                 </div>
             </div>
+            <div className="back-end">
+                <div className="back-top">
+                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto"}}>Back-End</h2>
+                </div>
+                <div className="front-bottom">
+                    <Slide left>
+                        <FE2 />
+                    </Slide>
+                    <Slide right>
+                        <FE3 />
+                    </Slide>
+                    <Slide left>
+                        <FE1 />
+                    </Slide>
+                    <Slide right>
+                        <FE4 />
+                    </Slide>
+                    <Slide left>
+                        <FE5 />
+                    </Slide>
+                </div>
+            </div>
+            <div className="CS">
+                <div className="CS-top">
+                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto"}}>Computer Science</h2>
+                </div>
+                <div className="CS-bottom">
+                    <Slide left>
+                        <FE2 />
+                    </Slide>
+                    <Slide right>
+                        <FE3 />
+                    </Slide>
+                    <Slide left>
+                        <FE1 />
+                    </Slide>
+                    <Slide right>
+                        <FE4 />
+                    </Slide>
+                    <Slide left>
+                        <FE5 />
+                    </Slide>
+                </div>
+            </div>
         </div>
     )
 }
