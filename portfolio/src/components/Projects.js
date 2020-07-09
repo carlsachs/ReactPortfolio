@@ -16,6 +16,7 @@ import FE5 from "./ProCards/FE5";
 import BE1 from "./ProCards/BE1";
 import BE2 from "./ProCards/BE2";
 import BE3 from "./ProCards/BE3";
+import BE4 from "./ProCards/BE4";
 
 //import styling libraries
 import Slide from "react-reveal";
@@ -68,10 +69,7 @@ const Projects = () => {
                         <BE3 />
                     </Slide>
                     <Slide right>
-                        <FE4 />
-                    </Slide>
-                    <Slide left>
-                        <FE5 />
+                        <BE4 />
                     </Slide>
                 </div>
             </div>
