@@ -17,24 +17,39 @@ import BE1 from "./ProCards/BE1";
 import BE2 from "./ProCards/BE2";
 import BE3 from "./ProCards/BE3";
 import BE4 from "./ProCards/BE4";
+import svg from "./project.svg";
 
 //import styling libraries
-import Slide from "react-reveal";
+import { Slide, Fade, Flip } from "react-reveal";
 
 const Projects = () => {
 
     return (
         <div className="wrap">
             <Nav />
-            <div className="top">
-                <h2>Featured Projects</h2>
+            <div className="top-proj">
+                <div className="top-left">
+                <Fade top>
+                    <h2>Featured Projects</h2>
+                </Fade>
+                <Flip top duration={2000}>
+                <div className="front-mid">
+                    <a target="_blank" href="https://github.com/carlsachs">Find me on Github</a>
+                </div>
+                </Flip>
+                <Fade bottom>
+                    <div className="repo">
+                        <h3>Find all my repos <Link target="_blank"style={{textDecoration: "none", color: "white"}} to="https://github.com/carlsachs/repositories">here</Link></h3>
+                    </div>
+                </Fade>
+                </div>
+                <div className="top-right">
+                    <img src={svg} alt="svg of projects" />
+                </div>
             </div>
             <div className="front-end">
                 <div className="front-top">
-                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto"}}>Front-End</h2>
-                </div>
-                <div className="front-mid">
-                    <h3>Find my GitHub <Link style={{textDecoration: "none", color: "#1890ff"}} to="https://github.com/carlsachs">HERE</Link>:</h3>
+                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto", textAlign: "center"}}>Front-End</h2>
                 </div>
                 <div className="front-bottom">
                     <Slide left>

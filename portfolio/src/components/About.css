@@ -2,24 +2,24 @@
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    background: #002766;
+    background: white;
 }
 
 .top {
     display: flex;
     justify-content: center;
     margin-top: 7%;
-    background-color: #003a8c;
+    background-color: #1890ff;
 }
 
 .top h2 {
     font-size: 2.5rem;
-    color: white;
+    color: #0050b3;
     text-align: center;
 }
 
 .middle {
-    background-color: #002766;
+    background-color: white;
 }
 
 .title {
