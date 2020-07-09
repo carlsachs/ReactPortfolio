@@ -14,6 +14,7 @@ const FE1 = () => {
         <div className="cardWrap">
             <div className="card-title">
                 <h2>Med-Cabinet</h2>
+                <p>First React Build Week Project</p>
             </div>
             <div className="card-role">
                 <h2>My Role:</h2>
@@ -23,8 +24,8 @@ const FE1 = () => {
                 <img src={Med} alt="image of medcabinet home" />
             </div>
             <div className="live">
-                <Link style={{textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px"}} to="https://med-cabinet-3.now.sh/">Live Demo</Link>
-                <Link style={{textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px"}} to="https://med-cabinet-3.now.sh/">Github Repo</Link>
+                <Link target="_blank"style={{textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px"}} to="https://med-cabinet-3.now.sh/">Live Demo</Link>
+                <Link target="_blank" style={{textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px"}} to="https://github.com/bw-med-cabinet-3/Front-End">Github Repo</Link>
 
             </div>
         </div>

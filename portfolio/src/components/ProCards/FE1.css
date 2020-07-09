@@ -4,6 +4,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    margin-top: 2%;
 }
 h3 {
     text-align: center;
@@ -15,8 +16,22 @@ h3 {
 }
 
 .live {
-    border: 1px solid black;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
+    text-align: center;
+}
+
+.card-title {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+.card-role {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding-top: 1.3%;
 }

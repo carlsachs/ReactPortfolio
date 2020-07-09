@@ -20,7 +20,7 @@ const Projects = () => {
             </div>
             <div className="front-end">
                 <div className="front-top">
-                    <h2>Front-End</h2>
+                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto"}}>Front-End</h2>
                 </div>
                 <div className="front-mid">
                     <h3>Find my GitHub <Link style={{textDecoration: "none", color: "#1890ff"}} to="https://github.com/carlsachs">HERE</Link>:</h3>
