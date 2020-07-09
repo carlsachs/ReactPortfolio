@@ -13,6 +13,10 @@ import FE2 from "./ProCards/FE2";
 import FE3 from "./ProCards/FE3";
 import FE4 from "./ProCards/FE4";
 import FE5 from "./ProCards/FE5";
+import BE1 from "./ProCards/BE1";
+import BE2 from "./ProCards/BE2";
+import BE3 from "./ProCards/BE3";
+import BE4 from "./ProCards/BE4";
 
 //import styling libraries
 import Slide from "react-reveal";
@@ -56,19 +60,16 @@ const Projects = () => {
                 </div>
                 <div className="front-bottom">
                     <Slide left>
-                        <FE2 />
+                        <BE1 />
                     </Slide>
                     <Slide right>
-                        <FE3 />
+                        <BE2 />
                     </Slide>
                     <Slide left>
-                        <FE1 />
+                        <BE3 />
                     </Slide>
                     <Slide right>
-                        <FE4 />
-                    </Slide>
-                    <Slide left>
-                        <FE5 />
+                        <BE4 />
                     </Slide>
                 </div>
             </div>
