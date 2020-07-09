@@ -10,6 +10,9 @@ import { Link } from "react-router-dom";
 import Nav from "./Nav";
 import FE1 from "./ProCards/FE1";
 import FE2 from "./ProCards/FE2";
+import FE3 from "./ProCards/FE3";
+import FE4 from "./ProCards/FE4";
+import FE5 from "./ProCards/FE5";
 
 //import styling libraries
 import Slide from "react-reveal";
@@ -34,7 +37,16 @@ const Projects = () => {
                         <FE2 />
                     </Slide>
                     <Slide right>
+                        <FE3 />
+                    </Slide>
+                    <Slide left>
                         <FE1 />
+                    </Slide>
+                    <Slide right>
+                        <FE4 />
+                    </Slide>
+                    <Slide left>
+                        <FE5 />
                     </Slide>
                 </div>
             </div>
