@@ -8,6 +8,7 @@ import Nav from "./Nav";
 import Skills from "./Skills";
 
 import "./python.svg"
+import boot from "./ProCards/bootwork.png";
 
 //import libraries
 import Fade from "react-reveal";
@@ -18,8 +19,40 @@ const About = () => {
     return (
         <div className="wrap">
             <Nav />
-            <div className="top">
-                <h2>Carl Sachs,<br></br>Web Developer</h2>
+            <div className="about-whole">
+                <div className="about-top">
+                    <div className="top-title">
+                        <h2>Carl Sachs,<br></br>Web Developer</h2>
+                    </div>
+                    <div className="status">
+                        <div className="status-title">
+                            <h3>Job Status:</h3>
+                        </div>
+                        <div className="status-status">
+                            <h4>Open to Opportunities</h4>
+                        </div>
+                    </div>
+                </div>
+                <div className="current">
+                    <div className="ctop">
+                        <h2>Lambda Progress</h2>
+                    </div>
+                    <div className="cmiddle">
+                        <h3>Current Course:</h3>
+                        <h4>Computer Science</h4>
+                    </div>
+                    <div className="cmiddle2">
+                        <h3>Current Section:</h3>
+                        <h4>Python/OOP</h4>
+                    </div>
+                    <div className="graduate">
+                        <h3>Set to Graduate:</h3>
+                        <h4>September 2020</h4>
+                    </div>
+                </div>
+                <div className="social">
+
+                </div>
             </div>
             <div className="middle">
                 <div className="title">

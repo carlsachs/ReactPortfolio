@@ -14,7 +14,7 @@ const Contact = () => {
     return (
         <div className="wrap">
             <Nav />
-            <div className="top">
+            <div className="contact-top">
                 <Typist avgTypingSpeed={60} cursor={{ hideWhenDone: true }}>
                     <h2>Get in Touch with Me</h2>
                 </Typist>

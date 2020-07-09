@@ -32,11 +32,6 @@ const Projects = () => {
                 <Fade top>
                     <h2>Featured Projects</h2>
                 </Fade>
-                <Flip top duration={2000}>
-                    <div className="front-mid">
-                        <a target="_blank" href="https://github.com/carlsachs">Find me on Github</a>
-                    </div>
-                </Flip>
                 <Fade bottom>
                     <div className="repo">
                         <h3>Find all my repos <Link target="_blank"style={{textDecoration: "none", color: "white"}} to="https://github.com/carlsachs/repositories">here</Link></h3>
@@ -45,6 +40,11 @@ const Projects = () => {
                         <h3>Compiled list of my skills <Link style={{textDecoration: "none", color: "white"}} to="/skills">here</Link></h3>
                     </div>
                 </Fade>
+                <Flip top duration={2000}>
+                    <div className="front-mid">
+                        <a target="_blank" href="https://github.com/carlsachs">Follow me on Github</a>
+                    </div>
+                </Flip>
                 </div>
                 <div className="top-right">
                     <img src={svg} alt="svg of projects" />
