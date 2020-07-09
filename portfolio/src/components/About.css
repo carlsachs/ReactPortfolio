@@ -42,7 +42,7 @@
 }
 
 .react:hover {
-    animation: rotation 2s infinite linear;
+    animation: rotation .75s infinite linear;
 }
 
 .css {
@@ -51,7 +51,7 @@
 }
 
 .css:hover {
-    animation: rotation2 2s infinite linear;
+    animation: rotation2 1s infinite linear;
 }
 
 .git {
@@ -60,7 +60,7 @@
 }
 
 .git:hover {
-    animation: rotation 2s infinite linear;
+    animation: rotation 1s infinite linear;
 }
 
 .node {
@@ -69,7 +69,7 @@
 }
 
 .node:hover {
-    animation: rotation2 2s infinite linear;
+    animation: rotation2 .75s infinite linear;
 }
 
 .bottomrow {
@@ -95,7 +95,7 @@
 }
 
 .typescript:hover {
-    animation: rotation2 2s infinite linear;
+    animation: rotation2 .5s infinite linear;
 }
 
 .webkit {
@@ -104,7 +104,7 @@
 }
 
 .webkit:hover {
-    animation: rotation 2s infinite linear;
+    animation: rotation .75s infinite linear;
 }
 
 .heroku {
@@ -113,7 +113,7 @@
 }
 
 .heroku:hover {
-    animation: rotation2 2s infinite linear;
+    animation: rotation2 1s infinite linear;
 }
 
 .list {

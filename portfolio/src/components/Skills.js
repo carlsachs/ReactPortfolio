@@ -20,7 +20,23 @@ const Skills = () => {
                 </Typist>
             </div>
             <div className="list">
-                
+                <div className="code">
+                    <h2>React.js</h2>
+                    <h2>HTML</h2>
+                    <h2>CSS</h2>
+                    <h2>Node.js</h2>
+                    <h2>GitFlow</h2>
+                    <h2>Slack</h2>
+                    <h2>React Redux</h2>
+                    <h2>TypeScript</h2>
+                    <h2>webkitUI</h2>
+                    <h2>Express</h2>
+                    <h2>Heroku/Vercel</h2>
+                    <h2>Python</h2>
+                    <h2>React-Router-Dom</h2>
+                    <h2>AntDesign</h2>
+                    <h2>MaterialUI</h2>
+                </div>
             </div>
         </div>
     )

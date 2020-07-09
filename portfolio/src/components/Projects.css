@@ -1,0 +1,40 @@
+.front-end {
+    background: white;
+}
+
+
+.front-top {
+    color: #003a8c;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.front-mid {
+    display: flex;
+    justify-content: center;
+    background: white;
+    text-align: center;
+    color: #003a8c;
+}
+
+.back-end {
+    background: white;
+}
+
+
+.back-top {
+    color: #003a8c;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.CS {
+    background: white;
+}
+
+
+.CS-top {
+    color: #003a8c;
+    text-align: center;
+    margin-top: 2%;
+}
