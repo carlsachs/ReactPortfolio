@@ -34,6 +34,8 @@ const Skills = () => {
                     <h2>Heroku/Vercel</h2>
                     <h2>Python</h2>
                     <h2>React-Router-Dom</h2>
+                    <h2>AntDesign</h2>
+                    <h2>MaterialUI</h2>
                 </div>
             </div>
         </div>

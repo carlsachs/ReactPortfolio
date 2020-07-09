@@ -1,0 +1,16 @@
+.front-end {
+    background: white;
+}
+
+.front-top {
+    color: #003a8c;
+    text-align: center;
+}
+
+.front-mid {
+    display: flex;
+    justify-content: center;
+    background: white;
+    text-align: center;
+    color: #003a8c;
+}

@@ -1,0 +1,22 @@
+.cardWrap {
+    background-color: aliceblue;
+    color: #003a8c;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+h3 {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.image img {
+    height: 175px;
+}
+
+.live {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
