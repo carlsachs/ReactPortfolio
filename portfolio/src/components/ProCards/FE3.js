@@ -18,7 +18,7 @@ const FE3 = () => {
             </div>
             <div className="card-role">
                 <h2>My Role:</h2>
-                <h2>Developer</h2>
+                <h2>Full-Stack Developer</h2>
             </div>
             <div className="image">
                 <img src={boot} alt="image of bootwork dashboard" />
