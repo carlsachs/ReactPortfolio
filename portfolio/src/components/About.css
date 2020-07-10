@@ -45,6 +45,26 @@
     padding-bottom: 3%;
 }
 
+.status-status {
+    margin-top: 10%;
+}
+
+.status-status a {
+    width: 70%;
+    background: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #002766;
+    border: 1px solid #002766;
+    padding: 5%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.status-status a:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
 /*TOP MIDDLE*/
 
 .current {
@@ -87,10 +107,27 @@
 
 }
 
+/* TOP RIGHT (SOCIAL) */
+
+.list-soc {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.linkedin {
+    color: #bae7ff;
+    font-size: 1.3rem;
+}
+
+.link-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
 
 
 
-/* MIDDLE SECTION */
+/* BIG-VIEW MIDDLE SECTION */
 
 
 .middle {
