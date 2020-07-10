@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
 
 body {
   font-family: "Roboto", sans-serif;
@@ -83,22 +84,22 @@ h1::after {
   h1::after {
     top: 118px;
   }
-}
-
+/*
+*//*
 @media only screen and (min-width: 400px){
   h1::before,
   h1::after {
     top: 120px;
   }
-} 
+} */
 
-@media only screen and (min-width: 400px) and (max-width: 550px){
+/* @media only screen and (min-width: 400px) and (max-width: 550px){
   h1::before,
   h1::after {
-    top: 127px;
+    top: 124px;
   }
-}
-@media only screen and (min-width: 551px) and (max-width: 650px){
+} */
+/* @media only screen and (min-width: 551px) and (max-width: 650px){
   h1::before,
   h1::after {
     top: 128px;
@@ -115,4 +116,4 @@ h1::after {
   h1::after {
     top: 135px;
   }
-} */
+}  */

@@ -14,7 +14,7 @@ const BE4 = () => {
         <div className="cardWrap">
             <div className="card-title">
                 <h2>Authentication: Challenge</h2>
-                <p>Final spring challenge for backend.</p>
+                <p>Final sprint challenge for backend.</p>
             </div>
             <div className="card-role">
                 <h2>Language:</h2>
